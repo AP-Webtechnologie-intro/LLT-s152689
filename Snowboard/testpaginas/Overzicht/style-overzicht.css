@@ -12,13 +12,11 @@
     background: lightslategrey;
 }
 
-
-
 .top-image-container {
     width: 260px;
-    height: 313px;
-    margin: 30;
-    padding: 30;
+    height: 310px;
+    border-style: solid;
+    margin: 10px;
 }
 
 .bottom-image-container {
@@ -26,4 +24,17 @@
     height: 213px;
     margin: 30;
     padding: 30;
+}
+
+.header-container {
+    border-style: solid;
+}
+
+.text-container {
+    border-style: solid;
+    margin-top: 20px;
+}
+
+.link-container {
+    border-style: solid;
 }
