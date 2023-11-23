@@ -1,0 +1,29 @@
+.top-container {
+    text-align: center;
+    height: 570px;
+    border-style: solid;
+    background: lightslategrey;
+}
+
+.bottom-container {
+    text-align: center;
+    height: 470px;
+    border-style: solid;
+    background: lightslategrey;
+}
+
+
+
+.top-image-container {
+    width: 260px;
+    height: 313px;
+    margin: 30;
+    padding: 30;
+}
+
+.bottom-image-container {
+    width: 100%;
+    height: 213px;
+    margin: 30;
+    padding: 30;
+}
