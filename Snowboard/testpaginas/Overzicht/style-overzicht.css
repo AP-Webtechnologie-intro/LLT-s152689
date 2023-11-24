@@ -1,40 +1,56 @@
+.header-container {
+    height: 200px;
+}
+
 .top-container {
     text-align: center;
-    height: 570px;
-    border-style: solid;
+    height: 550px;
     background: lightslategrey;
+    border-style:groove;
 }
 
 .bottom-container {
     text-align: center;
     height: 470px;
-    border-style: solid;
     background: lightslategrey;
+    border-style:groove;
 }
 
 .top-image-container {
     width: 260px;
     height: 310px;
-    border-style: solid;
-    margin: 10px;
+    margin: 20px;
 }
 
 .bottom-image-container {
     width: 100%;
     height: 213px;
-    margin: 30;
-    padding: 30;
-}
-
-.header-container {
-    border-style: solid;
 }
 
 .text-container {
     border-style: solid;
-    margin-top: 20px;
+    text-align: start;
+    margin-top: 15px;
+    height: 78px;
+    width: 40%;
+}
+
+.lege1-container {
+    width: 25%;
+}
+
+.lege2-container {
+    width: 30%;
+}
+
+.text5-container {
+    text-align: left;
+    margin-top: 15px;
+    width: 30%;
+    height: 78px;
+    border-style: solid;
 }
 
 .link-container {
-    border-style: solid;
+    margin: 20px;
 }
