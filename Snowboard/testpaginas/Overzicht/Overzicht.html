@@ -13,45 +13,45 @@
 </head>
 
 <body class="p-3 m-0 border-0 bd-example">
-  <nav class="navbar navbar-expand-md bg-info">
+  <nav class="navbar navbar-expand-md bg-dark">
     <div class="container-fluid">
+
       <a class="navbar-brand" href="#"><img src="./Snowboard_Logo.jpg" width="100" height="100"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="d-flex" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link active dropdown-toggle" aria-current="page" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Overzicht
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Pagina 1 - Snowboards</a></li>
-              <li><a class="dropdown-item" href="#">Pagina 2 - Bindingen</a></li>
-              <li><a class="dropdown-item" href="#">Pagina 3 - Indoor Skipistes</a></li>
-              <li><a class="dropdown-item" href="#">Pagina 4 - Frankrijk</a></li>
-              <li><a class="dropdown-item" href="#">Pagina 5 - Oostenrijk</a></li>
-              <li><a class="dropdown-item" href="#">Pagina 6 - Zwitserland</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="zoeken" aria-label="Search">
-        <button class="btn btn-sm btn-outline-secondary" type="submit">zoeken</button>
-      </form>
+
+ 
+        <div class="d-flex" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-info" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle text-info" aria-current="page" href="#" role="button" data-bs-toggle="dropdown" data-bs-theme="dark">
+                Overzicht
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item text-info" href="#">Pagina 1 - Snowboards</a></li>
+                <li><a class="dropdown-item text-info" href="#">Pagina 2 - Bindingen</a></li>
+                <li><a class="dropdown-item text-info" href="#">Pagina 3 - Indoor Skipistes</a></li>
+                <li><a class="dropdown-item text-info" href="#">Pagina 4 - Frankrijk</a></li>
+                <li><a class="dropdown-item text-info" href="#">Pagina 5 - Oostenrijk</a></li>
+                <li><a class="dropdown-item text-info" href="#">Pagina 6 - Zwitserland</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-info" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+        
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="zoeken" aria-label="Search">
+          <button class="btn btn-sm btn-outline-secondary text-info" type="submit">zoeken</button>
+        </form>
     </div>
   </nav>
 
   Add the .active class on .nav-link to indicate the current page.
   Please note that you should also add the aria-current attribute on the active .nav-link.
 
-  <footer class="container-fluid text-center h6 small p-4 text-info">Standing Sideways since &copy; 2009</footer>
+  <footer class="container-fluid text-center h6 small p-4 bg-dark text-info">Standing Sideways since &copy; 2009</footer>
 </body>
