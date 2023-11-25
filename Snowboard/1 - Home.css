@@ -1,4 +1,4 @@
-.title-container {
+.bg-container {
     border-style: solid;
     height: 700px;
     width: 100%;
@@ -6,17 +6,44 @@
     background-position: 60% 60%;
 }
 
-.main-container {
+.top1-container {
+    text-align: center;
+    height: 750px;
+    background: lightslategrey;
+    border-style:groove;
+}
+
+.top2-container {
+    text-align: center;
+    height: 750px;
+    background: lightslategrey;
+    border-style:groove;
+}
+
+.title-container {
     border-style: solid;
-    height: 720px;   
+    text-align: center;
+    height: 90px;
+    margin: 45px;
+    margin-left: 70px;
 }
 
 .text-container {
-    border-style: solid;
-    height: 660px;
     text-align: center;
+    border-style: solid;
+    height: 520px;
+    margin: 45px;
+    margin-left: 70px;
+    padding: 30px;
 }
 
+.top-image-container {
+    height: 650px;
+    width: 550px;
+    margin: 45px;
+    margin-right: 70px;
+    border-style: solid;
+}
 .image-container {
     border-style: solid;
     height: 660px;
