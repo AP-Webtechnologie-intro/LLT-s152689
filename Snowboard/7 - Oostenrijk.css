@@ -2,7 +2,8 @@
     border-style: solid;
     height: 800px;
     width: auto;
-    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./les\ sybelle.jpg");
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./7.1-Oosterijk-Zillertal.jpg");
+    background-position: 70% 70%
 }
 
 .zillertal-title-container {
@@ -17,11 +18,19 @@
     margin: 45px;
 }
 
+.zillertal-image-container {
+    height: 175px;
+    width: 340px;
+    margin-left: 45px;
+    margin-bottom: 45px;
+    border-style: solid;
+}
+
 .ischgl-container {
     border-style: solid;
     height: 800px;
     width: auto;
-    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./les\ sybelle.jpg");
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./7.2-Oostenrijk-Ischgl.webp");
 }
 
 .ischgl-title-container {
@@ -36,11 +45,19 @@
     margin: 45px;
 }
 
+.ischgl-image-container {
+    height: 175px;
+    width: 340px;
+    margin-left: 45px;
+    margin-bottom: 45px;
+    border-style: solid;
+}
+
 .schladming-container {
     border-style: solid;
     height: 800px;
     width: auto;
-    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./les\ sybelle.jpg");
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./7.3-Oostenrijk-Schladming.jpg");
 }
 
 .schladming-title-container {
@@ -53,4 +70,12 @@
     text-align: left;
     border-style: solid;
     margin: 45px;
+}
+
+.schladming-image-container {
+    height: 175px;
+    width: 340px;
+    margin-left: 45px;
+    margin-bottom: 45px;
+    border-style: solid;
 }
