@@ -1,11 +1,4 @@
-.top1-container {
-    text-align: center;
-    height: 700px;
-    border-style:groove;
-    border-color: rgb(127, 206, 255);
-}
-
-.top2-container {
+.main-container {
     text-align: center;
     height: 700px;
     border-style:groove;
@@ -25,13 +18,13 @@
     padding: 30px;
 }
 
-.top-image-container {
+.image-container {
     height: 640px;
     width: 664px;
     margin-top: 30px;
 }
 
-.top-image2-container {
+.image2-container {
     height: 305px;
     width: 640px;
     margin-top: 30px;
