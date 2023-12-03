@@ -1,19 +1,18 @@
 .top1-container {
     text-align: center;
     height: 700px;
-    background: lightslategrey;
     border-style:groove;
+    border-color: rgb(127, 206, 255);
 }
 
 .top2-container {
     text-align: center;
     height: 700px;
-    background: lightslategrey;
     border-style:groove;
+    border-color: rgb(127, 206, 255);
 }
 
 .title-container {
-    border-style: solid;
     text-align: center;
     height: 90px;
     margin-top: 30px;
@@ -21,7 +20,6 @@
 
 .text-container {
     text-align: center;
-    border-style: solid;
     height: 520px;
     margin: 30px;
     padding: 30px;
@@ -31,14 +29,12 @@
     height: 640px;
     width: 664px;
     margin-top: 30px;
-    border-style: solid;
 }
 
 .top-image2-container {
     height: 305px;
     width: 640px;
     margin-top: 30px;
-    border-style: solid;
 }
 
 

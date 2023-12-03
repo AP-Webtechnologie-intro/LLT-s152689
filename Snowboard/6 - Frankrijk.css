@@ -1,34 +1,27 @@
 .sybelles-container {
-    border-style: solid;
     height: 800px;
-    width: auto;
     background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./6.1-Frankrijk-Sybelles.webp");
     background-position: 60% 70%;
+    border-style: groove;
+    border-color: rgb(127, 206, 255);
 }
 
 .sybelles1-container {
     height: 400px;
     width: 960px;
-    margin-left: 45px;
-    border-style:groove;
 }
 
 .sybelles-title-container {
-    border-style: solid;
-    text-align: left;
-    margin-top: 45px;
+    margin: 45px;
 }
 
 .sybelles-text-container {
-    text-align: left;
-    border-style: solid;
-    margin-top: 45px;
+    margin-left: 45px;
 }
 
 .sybelles2-container {
     height: 400px;
     width: 430px;
-    border-style:groove;
 }
 
 .sybelles-image1-container {
@@ -46,21 +39,17 @@
 }
 
 .soleil-container {
-    border-style: solid;
     height: 800px;
-    width: 100%;
     background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./6.2-Frankrijk-Soleil.BG.jpg");
+    border-style: groove;
+    border-color: rgb(127, 206, 255);
 }
 
 .soleil-title-container {
-    border-style: solid;
-    text-align: left;
     margin: 45px;
 }
 
 .soleil-text-container {
-    text-align: left;
-    border-style: solid;
     margin: 45px;
 }
 
@@ -72,27 +61,24 @@
 }
 
 .tresvallees-container {
-    border-style: solid;
     height: 800px;
-    width: 100%;
     background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./6.3-Frankrijk-Tresvallees-BG.jpg");
-    background-position: 60% 60%
+    background-position: 60% 60%;
+    border-style: groove;
+    border-color: rgb(127, 206, 255);
 }
 
 .tresvallees-title-container {
-    border-style: solid;
     text-align: right;
     margin: 45px;
 }
 
 .tresvallees-text-container {
     text-align: right;
-    border-style: solid;
     margin: 45px;
 }
 
 .tresvallees-image-container {
-    border-style: solid;
     height: 200px;
     width: 1370px;
     margin-left: 45px;   
@@ -102,53 +88,38 @@
 .tresvallees-image1-container {
     height: 200px;
     width: 400px;
-    border-style: solid;
 }
 
 .tresvallees-image2-container {
     height: 200px;
     width: 400px;
     margin-left: 45px;
-    border-style: solid;
 }
 
 .tresvallees-image3-container {
     height: 200px;
     width: 400px;
     margin-left: 45px;
-    border-style: solid;
 }
 
 .tignes-container {
-    border-style: solid;
     height: 800px;
-    width: 100%;
     background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./6.4-Frankrijk-Tignes-mont_blanc_BG.webp");
-}
-
-.tignes1-container {
-    height: 400px;
-    width: 955px;
-    margin-left: 45px;
-    border-style:groove;
+    border-style: groove;
+    border-color: rgb(127, 206, 255);
 }
 
 .tignes-title-container {
-    border-style: solid;
-    text-align: left;
-    margin-top: 45px;
+    margin: 45px;
 }
 
 .tignes-text-container {
-    text-align: left;
-    border-style: solid;
-    margin-top: 45px;
+    margin-left: 45px;
 }
 
 .tignes2-container {
     height: 400px;
     width: 430px;
-    border-style:groove;
 }
 
 .tignes-image1-container {
@@ -166,29 +137,24 @@
 }
 
 .deuxalpes-container {
-    border-style: solid;
     height: 800px;
-    width: 100%;
     background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./6.5-Frankrijk-DeuxAlpes.jpg");
-    background-position: 40% 40%
+    background-position: 40% 40%;
+    border-style: groove;
+    border-color: rgb(127, 206, 255);
 }
 
 .deuxalpes-title-container {
-    border-style: solid;
-    text-align: left;
     margin: 45px;
 }
 
 .deuxalpes-text-container {
-    text-align: left;
-    border-style: solid;
-    margin: 45px;
+    margin-left: 45px;
 }
 
 .deuxalpes-image-container {
     height: 175px;
     width: 340px;
     margin-left: 45px;
-    margin-bottom: 45px;
-    border-style: solid;
+    margin-top: 45px;
 }

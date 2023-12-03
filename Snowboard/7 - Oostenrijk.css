@@ -1,81 +1,38 @@
 .zillertal-container {
-    border-style: solid;
     height: 800px;
-    width: auto;
     background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./7.1-Oosterijk-Zillertal.jpg");
-    background-position: 70% 70%
-}
-
-.zillertal-title-container {
-    border-style: solid;
-    text-align: left;
-    margin: 45px;
-}
-
-.zillertal-text-container {
-    text-align: left;
-    border-style: solid;
-    margin: 45px;
-}
-
-.zillertal-image-container {
-    height: 175px;
-    width: 340px;
-    margin-left: 45px;
-    margin-bottom: 45px;
-    border-style: solid;
+    background-position: 70% 70%;
+    border-style: groove;
+    border-color: rgb(127, 206, 255);
 }
 
 .ischgl-container {
-    border-style: solid;
     height: 800px;
-    width: auto;
     background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./7.2-Oostenrijk-Ischgl.webp");
-}
-
-.ischgl-title-container {
-    border-style: solid;
-    text-align: left;
-    margin: 45px;
-}
-
-.ischgl-text-container {
-    text-align: left;
-    border-style: solid;
-    margin: 45px;
-}
-
-.ischgl-image-container {
-    height: 175px;
-    width: 340px;
-    margin-left: 45px;
-    margin-bottom: 45px;
-    border-style: solid;
+    border-style:groove;
+    border-color: rgb(127, 206, 255);
 }
 
 .schladming-container {
-    border-style: solid;
     height: 800px;
-    width: auto;
     background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./7.3-Oostenrijk-Schladming.jpg");
+    border-style:groove;
+    border-color: rgb(127, 206, 255);
 }
 
-.schladming-title-container {
-    border-style: solid;
-    text-align: left;
+.title-container {
     margin: 45px;
 }
 
-.schladming-text-container {
-    text-align: left;
-    border-style: solid;
+.text-container {
     margin: 45px;
 }
 
-.schladming-image-container {
+.image-container {
     height: 175px;
     width: 340px;
     margin-left: 45px;
     margin-bottom: 45px;
-    border-style: solid;
 }
+
+

@@ -5,15 +5,15 @@
 .top-container {
     text-align: center;
     height: 550px;
-    background: lightslategrey;
     border-style:groove;
+    border-color: rgb(127, 206, 255);
 }
 
 .bottom-container {
     text-align: center;
     height: 470px;
-    background: lightslategrey;
     border-style:groove;
+    border-color: rgb(127, 206, 255);
 }
 
 .top-image-container {
