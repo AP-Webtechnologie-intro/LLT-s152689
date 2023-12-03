@@ -6,36 +6,28 @@
     border-color: rgb(127, 206, 255);
 }
 
-.quatres1-container {
+.left-container {
     height: 400px;
-    width: 960px;
+    width: 1070px;
+}
+
+.title-container {
+    margin: 45px;
+}
+
+.text-container {
     margin-left: 45px;
 }
 
-.quatres-title-container {
+.right-container {
+    height: 500px;
+    width: 400px;
+}
+
+.image-container {
+    height: 175px;
+    width: 340px;
     margin-top: 45px;
-}
-
-.quatres-text-container {
-    margin-top: 45px;
-}
-
-.quatres2-container {
-    height: 400px;
-    width: 430px;
-}
-
-.quatres-image1-container {
-    height: 145px;
-    width: 300px;
-    margin-top: 25px;
-    margin-left: 110px;
-}
-
-.quatres-image2-container {
-    height: 145px;
-    width: 300px;
-    margin-left: 110px;
 }
 
 .matterhorn-container {
@@ -45,56 +37,9 @@
     border-color: rgb(127, 206, 255);
 }
 
-.matterhorn-title-container {
-    margin: 45px;
-}
-
-.matterhorn-text-container {
-    margin: 45px;
-}
-
-.matterhorn-image-container {
-    height: 175px;
-    width: 340px;
-    margin-left: 45px;
-    margin-bottom: 45px;
-}
-
 .laax-container {
     height: 750px;
     background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./8.3-Zwitserland-Laax.jpg");
     border-style: groove;
     border-color: rgb(127, 206, 255);
-}
-
-.laax1-container {
-    height: 400px;
-    width: 960px;
-    margin-left: 45px;
-}
-
-.laax-title-container {
-    margin-top: 45px;
-}
-
-.laax-text-container {
-    margin-top: 45px;
-}
-
-.laax2-container {
-    height: 400px;
-    width: 430px;
-}
-
-.laax-image1-container {
-    height: 145px;
-    width: 300px;
-    margin-top: 25px;
-    margin-left: 110px;
-}
-
-.laax-image2-container {
-    height: 145px;
-    width: 300px;
-    margin-left: 110px;
 }
