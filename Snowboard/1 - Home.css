@@ -1,41 +1,6 @@
 .bg-container {
-    height: 700px;
-    text-align: center;
     background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("./1-Home-Title.jpg");
     background-position: 60% 60%;
 }
 
-.text-bg-container {
-    height: 120px;
-    padding: 75px;
-    margin-bottom: 90px;
-}
 
-.left-container {
-    text-align: center;
-    height: 750px;
-}
-
-.title-container {
-    height: 90px;
-    margin: 45px;
-    margin-left: 70px;
-}
-
-.text-container {
-    height: 520px;
-    margin: 45px;
-    margin-left: 70px;
-    padding: 25px;
-}
-
-.right-container {
-    height: 750px;
-}
-
-.image-container {
-    height: 650px;
-    width: 550px;
-    margin: 45px;
-    margin-right: 70px;
-}
