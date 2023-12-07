@@ -7,18 +7,21 @@
 
 .ischgl-container {
     background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./7.2-Oostenrijk-Ischgl.webp");
-    background-position: 40% 40%;
-    border-style: groove;
+    border-style:groove;
     border-color: rgb(127, 206, 255);
 }
 
 .schladming-container {
     background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./7.3-Oostenrijk-Schladming.jpg");
-    border-style: groove;
+    border-style:groove;
     border-color: rgb(127, 206, 255);
 }
 
 .image-container {
     height: 175px;
     width: 340px;
+}
+
+.text-container {
+    
 }
