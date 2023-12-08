@@ -1,28 +1,4 @@
-.intro-container{
-    text-align: center;
-    height: 320px;
-    padding: 45px;
-}
-
-.main-container {
-    text-align: center;
-    height: 550px;
-    border-style:groove;
+.topic-container {
+    border-style: groove;
     border-color: rgb(127, 206, 255);
-}
-
-.title-container {
-    height: 90px;
-    margin-top: 30px;
-}
-
-.text-container {
-    margin: 30px;
-    padding: 30px;
-}
-
-.image-container {
-    height: 490px;
-    width: 664px;
-    margin-top: 30px;
 }
