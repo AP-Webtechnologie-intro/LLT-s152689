@@ -1,7 +1,6 @@
 .topic-container {
     border-style: groove;
+    border-width: 5px;
     border-color: rgb(127, 206, 255);
 }
-
-
 
