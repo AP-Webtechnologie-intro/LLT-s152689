@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="style-contact.css">
+  <link rel="stylesheet" type="text/css" href="./9 - Contact.css">
   <title>Contact</title>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
   <link href="./css/style.css" rel="stylesheet">
@@ -14,21 +14,20 @@
 
 <body class="p-3 m-0 border-0 bd-example bg-secondary">
   <nav class="navbar navbar-expand-md bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="./Images/0 - Logo/Snowboard_Logo.jpg" width="100" height="100"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="d-flex" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <section class="container-fluid">
+      <a class="navbar-brand"><img src="./Images/0 - Logo/Snowboard_Logo.jpg" alt="Logo" width="100" height="100"></a>
+
+      <section class="col-xl-1"></section>
+      <section class="col-xxl-1"></section>
+      <section class="col-xl-1"></section>
+
+      <section class="d-flex" id="navbarSupportedContent">
+        <ul class="nav justify-content-center">
           <li class="nav-item">
             <a class="nav-link text-info" href="http://127.0.0.1:5501/Snowboard/1%20-%20Home.html">Home</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-info" href="http://127.0.0.1:5501/Snowboard/2%20-%20Overzicht.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Overzicht
-            </a>
+            <a class="nav-link dropdown-toggle text-info" role="button" data-bs-toggle="dropdown" aria-expanded="false">Overzicht</a>
             <ul class="dropdown-menu dropdown-menu-dark">
               <li><a class="dropdown-item text-info" href="http://127.0.0.1:5501/Snowboard/2%20-%20Overzicht.html">Overzicht</a></li>
               <li><a class="dropdown-item text-info" href="http://127.0.0.1:5501/Snowboard/3%20-%20Snowboards.html">Snowboards</a></li>
@@ -43,7 +42,11 @@
             <a class="nav-link active text-info" aria-current="page" href="#">Contact</a>
           </li>
         </ul>
-      </div>
+      </section>
+
+      <section class="col-xl-1"></section>
+      <section class="col-xxl-1"></section>
+
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="zoeken" aria-label="Search">
         <button class="btn btn-sm btn-outline-secondary text-info" type="submit">zoeken</button>
@@ -52,15 +55,110 @@
   </nav>
 
   <header>
-    <h1 class = "text-center m-5">CONTACT</h1>
+    <h1 class = "text-center text-info m-5">STANDING SIDEWAYS</h1>
   </header>
   <hr>
 
   <main class="container-fluid">
 
+    <h2 class="text-uppercase bolder">contact</h2>
+      <br>
+      <a>
+        Hier vind u de verdere contactgegevens over de beheerders van deze website.<br>
+        Als u enige vragen of opmerkingen hebt.<br>
+        Gelieve alle velden in te vullen.<br>
+        Plus geef een korte beschrijving in de voorziene ruimte.<br> 
+      </a>
+    <hr>
+
+    <section class="topic-container text-center p-4 m-4 col-sm-6 col-md-6 col-lg-4">
+      <h1>
+        <u>
+          Webpage Owner
+        </u>
+      </h1>
+      <br>
+      <p>
+        Trammezantlei 122<br>
+        2900 Schoten<br>
+        s152689@ap.be<br>
+      </p>
+    </section>
+
+    <section class="topic-container text-center p-4 m-4 col-sm-6 col-md-6 col-lg-4">
+      <h1>
+        <u>
+          Webpage Designer
+        </u>
+      </h1>
+      <br>
+      <p>
+        Trammezantlei 124<br>
+        2900 Schoten<br>
+        webdesign@ap.be<br>
+      </p>
+    </section>
+
+    <article class="row">
+
+      <form class="topic-container p-4 col-sm-12 col-md-12 col-lg-6">
+        <fieldset>
+          <h1 class="text-center fs-4 fw-bolder">
+            <u>
+              GEGEVENS
+            </u>
+          </h1>
+
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <label for="First name"></label>
+              <input type="text" class="form-control" placeholder="Voornaam" id="First name" value="" required>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <label for="Last name"></label>
+              <input type="text" class="form-control" placeholder="Achternaam" id="Last name" value="" required>
+            </div>
+          </div>
+
+          <div>
+            <label for="Email"></label>
+            <input type="email" class="form-control" placeholder="Email adres" id="Email" aria-describedby="emailHelp" value="" required>
+          </div>
+          <div>
+            <label for="Remarks"></label>
+            <textarea rows="3" type="text" textarea class="form-control" placeholder="Opmerkingen of Vragen" id="Remarks" value="" required></textarea>
+          </div>
+          <br>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </fieldset>
+      </form>
+
+      <section class="topic-container col-sm-12 col col-md-12 col-lg-6">
+        <p>map hier</p>
+
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">State</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>...</option>
+          </select>
+        </div>
+
+        <div class="col-auto">
+          <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+          <select class="form-select" id="autoSizingSelect">
+            <option selected>Choose...</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+      </section>
+
+    </article>
     
     <hr>
-    </main>
+  </main>
 
   <footer class="container-fluid text-center h6 small p-4 bg-dark text-info">Standing Sideways since &copy; 2009</footer>
 </body>
