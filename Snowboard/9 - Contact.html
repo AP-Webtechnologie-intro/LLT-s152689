@@ -55,110 +55,93 @@
   </nav>
 
   <header>
-    <h1 class = "text-center m-5" style="color: rgb(81, 181, 252)">STANDING SIDEWAYS</h1>
+    <h1 class = "text-center text-info m-5">STANDING SIDEWAYS</h1>
   </header>
   <hr>
 
   <main class="container-fluid">
 
-    <h2 class="text-uppercase bolder">contact</h2>
+    <section class="text-center m-5">
+      <h2 class="text-uppercase bolder">contact</h2>
       <br>
-      <a>
+      <p>
         Hier vind u de verdere contactgegevens over de beheerders van deze website.<br>
         Als u enige vragen of opmerkingen hebt.<br>
         Gelieve alle velden in te vullen.<br>
         Plus geef een korte beschrijving in de voorziene ruimte.<br> 
-      </a>
+      </p>
+    </section>
     <hr>
-
-    <section class="topic-container text-center p-4 m-4 col-sm-6 col-md-6 col-lg-4">
-      <h1>
+    <section class="row">
+      <section class="topic-container text-center col-lg-6 p-5">
         <u>
-          Webpage Owner
-        </u>
-      </h1>
-      <br>
-      <p>
-        Trammezantlei 122<br>
-        2900 Schoten<br>
-        s152689@ap.be<br>
-      </p>
-    </section>
-
-    <section class="topic-container text-center p-4 m-4 col-sm-6 col-md-6 col-lg-4">
-      <h1>
-        <u>
-          Webpage Designer
-        </u>
-      </h1>
-      <br>
-      <p>
-        Trammezantlei 124<br>
-        2900 Schoten<br>
-        webdesign@ap.be<br>
-      </p>
-    </section>
-
-    <article class="row">
-
-      <form class="topic-container p-4 col-sm-12 col-md-12 col-lg-6">
-        <fieldset>
-          <h1 class="text-center fs-4 fw-bolder">
-            <u>
-              GEGEVENS
-            </u>
+          <h1>
+            Webpage Owner
           </h1>
-
-          <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-6">
-              <label for="First name"></label>
-              <input type="text" class="form-control" placeholder="Voornaam" id="First name" value="" required>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-6">
-              <label for="Last name"></label>
-              <input type="text" class="form-control" placeholder="Achternaam" id="Last name" value="" required>
-            </div>
-          </div>
-
-          <div>
-            <label for="Email"></label>
-            <input type="email" class="form-control" placeholder="Email adres" id="Email" aria-describedby="emailHelp" value="" required>
-          </div>
-          <div>
-            <label for="Remarks"></label>
-            <textarea rows="3" type="text" textarea class="form-control" placeholder="Opmerkingen of Vragen" id="Remarks" value="" required></textarea>
-          </div>
-          <br>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </fieldset>
-      </form>
-
-      <section class="topic-container col-sm-12 col col-md-12 col-lg-6">
-        <p>map hier</p>
-
-        <div class="col-md-4">
-          <label for="inputState" class="form-label">State</label>
-          <select id="inputState" class="form-select">
-            <option selected>Choose...</option>
-            <option>...</option>
-          </select>
-        </div>
-
-        <div class="col-auto">
-          <label class="visually-hidden" for="autoSizingSelect">Preference</label>
-          <select class="form-select" id="autoSizingSelect">
-            <option selected>Choose...</option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
-          </select>
-        </div>
+        </u>
+        <br>
+        <p>
+          Trammezantlei 122<br>
+          2900 Schoten<br>
+          s152689@ap.be<br>
+        </p>
       </section>
 
-    </article>
+      <section class="topic-container text-center col-lg-6 p-5">
+        <u>
+          <h1>
+            Webpage Designer
+          </h1>
+        </u>
+        <br>
+        <p>
+          Trammezantlei 124<br>
+          2900 Schoten<br>
+          webdesign@ap.be<br>
+        </p>
+      </section>
+    </section>
+    <br>
+    <section class="row">
+      <form class="topic-container p-4 col-lg-6">
+        <u class="text-center fs-4 fw-bolder">
+          <h1>
+            GEGEVENS
+          </h1>
+        </u>
+
+        <fieldset class="row">
+          <div class="col-md-6 col-lg-6">
+            <label for="First name"></label>
+            <input type="text" class="form-control" placeholder="Voornaam" id="First name" value="" required>
+          </div>
+          <div class="col-md-6 col-lg-6">
+            <label for="Last name"></label>
+            <input type="text" class="form-control" placeholder="Achternaam" id="Last name" value="" required>
+          </div>
+        </fieldset>
+
+        <div>
+          <label for="Email"></label>
+          <input type="email" class="form-control" placeholder="Email adres" id="Email" aria-describedby="emailHelp" value="" required>
+        </div>
+        <div>
+          <label for="Remarks"></label>
+          <textarea rows="3" type="text" textarea class="form-control" placeholder="Opmerkingen of Vragen" id="Remarks" value="" required></textarea>
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+      <section class="topic-container p-4 col-lg-6">
+        <iframe class="google-container" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2517.627648306778!2d6.019645176512294!3d50.875092771676364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c0bd410bd9359d%3A0x225bc4f9fa8e3268!2sSnowWorld%20Landgraaf!5e0!3m2!1snl!2sbe!4v1702679451772!5m2!1snl!2sbe" 
+        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+    </section>
     
   </main>
   <hr>
 
   <footer class="container-fluid text-center h6 small p-4 bg-dark text-info">Standing Sideways since &copy; 2009</footer>
 </body>
+
