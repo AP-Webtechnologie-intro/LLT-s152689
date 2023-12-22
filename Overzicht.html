@@ -10,6 +10,23 @@
   <title>Overzicht</title>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
   <link href="./css/style.css" rel="stylesheet">
+
+  <style>
+
+    ul {
+      text-align: justify;
+      margin: 2rem auto;
+      width: 50%;
+    }
+
+    li {
+      text-align: justify;    
+    }
+
+  </style>
+
+
+
 </head>
 
 <body class="p-3 m-0 border-0 bd-example bg-secondary">
@@ -62,50 +79,54 @@
   <main class="container-fluid">
     
     <section class="row">
-      <section class="topic-container text-center col-md-6 col-lg-4">
+      <section class="topic-container text-center col-lg-6 col-xl-4">
         <u>
-          <h2 class="pt-4">SNOWBOARDS</h2>
+          <h2 class="pt-4">Snowboards</h2>
         </u>
         <image>
-          <img class="mt-4 mb-3" src="./Images/Overzichtspagina/overzicht-snowboards.JPG" alt="mysnowboard" style="height: 310px; width: 260px;" class="img-fluid">
+          <img class="mt-4 mb-3" src="./Images/Overzichtspagina/overzicht-snowboards.JPG" alt="mysnowboard" style="height: 340px; width: 300px;" class="img-fluid">
         </image>
         <p>
-          <li>All Mountain</li>
-          <li>Freestyle</li>
-          <li>Freeride</li>
-          <li>Funpark</li>
-          <li>Carving</li>
+          <ul class="info-container">
+            <li>All Mountain</li>
+            <li>Freestyle</li>
+            <li>Freeride</li>
+            <li>Funpark</li>
+            <li>Carving</li>
+          </ul>
         </p>
         <div class="mb-4 mt-2">
           <a href="http://127.0.0.1:5501/Snowboards.html">&copy Learn more</a>
         </div>
       </section>
 
-      <section class="topic-container text-center col-md-6 col-lg-4">
+      <section class="topic-container text-center col-lg-6 col-xl-4">
         <u>
-          <h2 class="pt-4">BINDINGEN</h2>
+          <h2 class="pt-4">Bindingen</h2>
         </u>
         <image>
-          <img class="mt-4 mb-3" src="./Images/Overzichtspagina/overzicht-bindingen.webp" alt="bindingen" style="height: 310px; width: 260px;" class="img-fluid">
+          <img class="mt-4 mb-3" src="./Images/Overzichtspagina/overzicht-bindingen.webp" alt="bindingen" style="height: 340px; width: 300px;" class="img-fluid">
         </image>
         <p>
-          <li>Strap</li>
-          <li>Step On</li>
-          <br>
-          <br>
-          <br>
+          <ul>
+            <li>Strap</li>
+            <li>Step On</li>
+            <br>
+            <br>
+            <br>
+          </ul>
         </p>
         <div class="mb-4 mt-2">
           <a href="http://127.0.0.1:5501/Bindingen.html">&copy Learn more</a>
         </div>  
       </section>
 
-      <section class="topic-container text-center col-md-6 col-lg-4">
+      <section class="topic-container text-center col-lg-6 col-xl-4">
         <u>
-          <h2 class="pt-4">INDOOR SKIPISTES</h2>
+          <h2 class="pt-4">Indoor Skipistes</h2>
         </u>
         <image>
-          <img class="mt-4 mb-3" src="./Images/Overzichtspagina/overzicht-indoor.jpg" alt="indoor" style="height: 310px; width: 260px;" class="img-fluid">
+          <img class="mt-4 mb-3" src="./Images/Overzichtspagina/overzicht-indoor.jpg" alt="indoor" style="height: 340px; width: 300px;" class="img-fluid">
         </image>
         <p>
           <li>Landgraaf</li>
@@ -121,28 +142,39 @@
     </section>
 
     <section class="row">
-      <section class="topic-container text-center col-md-6 col-lg-4">
+      <section class="topic-container text-center col-lg-6 col-xl-4">
         <u>
-          <h2 class="pt-4">FRANKRIJK</h2>
+          <h2 class="pt-4">Frankrijk</h2>
         </u>
         <image>
           <img class="container sol-12 mb-4" src="./Images/Overzichtspagina/overzicht-frankrijk.jpg" alt="frankrijk" style="height: 215px;" class="img-fluid">
         </image>
-        <p>
-          <li>Les Sybelles</li>
-          <li>Les Portes du Soleil</li>
-          <li>Les Tres Vallees</li>
-          <li>Tignes - Val d'Isère</li>
-          <li>Les Deux Alpes</li>
-        </p>
+
+        <table class="table table-bordered">
+          <tbody>
+            <tr>
+              <td><li>Les Sybelles</li></td>
+              <td><li>Les Portes du Soleil</li></td>
+            </tr>
+            <tr>
+              <td><li>Les Tres Vallees</li></td>
+              <td><li>Tignes - Val d'Isère</li></td>
+            </tr>
+            <tr>
+              <td><li>Les Deux Alpes</li></td>
+            </tr>
+          </tbody>
+        </table>
+
         <div class="mb-4 mt-2">
           <a href="http://127.0.0.1:5501/Frankrijk.html">&copy Learn more</a>
         </div>
+
       </section>
 
-      <section class="topic-container text-center col-md-6 col-lg-4">
+      <section class="topic-container text-center col-lg-6 col-xl-4">
         <u>
-          <h2 class="pt-4">OOSTENRIJK</h2>
+          <h2 class="pt-4">Oostenrijk</h2>
         </u>
         <image>
           <img class="container sol-12 mb-4" src="./Images/Overzichtspagina/overzicht-oostenrijk.webp" alt="oostenrijk" style="height: 215px;" class="img-fluid">
@@ -159,9 +191,9 @@
         </div>  
       </section>
 
-      <section class="topic-container text-center col-md-6 col-lg-4">
+      <section class="topic-container text-center col-lg-6 col-xl-4">
         <u>
-          <h2 class="pt-4">ZWITSERLAND</h2>
+          <h2 class="pt-4">Zwitserland</h2>
         </u>
         <image>
           <img class="container sol-12 mb-4" src="./Images/Overzichtspagina/overzicht-zwitserland.jpg" alt="zwitserland" style="height: 215px;" class="img-fluid">
@@ -182,5 +214,5 @@
   </main>
   <hr>  
 
-  <footer class="container-fluid text-center h6 small p-4 text-info bg-dark">Standing Sideways since &copy; 2009</footer>
+  <footer class="container-fluid text-center h6 p-4 text-info bg-dark">Standing Sideways since &copy; 2009</footer>
 </body>
