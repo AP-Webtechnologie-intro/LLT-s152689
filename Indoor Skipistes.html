@@ -10,6 +10,8 @@
   <title>Indoor Skipistes</title>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
   <link href="./css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 </head>
 
 <body class="p-3 m-0 border-0 bd-example bg-secondary">
@@ -87,6 +89,35 @@
           Stoeltjes- en sleeplift<br>
           Aprés ski op de piste<br>
         </p>
+      </section>
+    </article>
+
+    <article>
+      <section class="row">
+        <section class="topic-container p-4 col-lg-6">
+          <p>hier nog een tabel plaatsen</p>
+        </section>
+        
+        <section class="topic-container text-center p-4 col-lg-6">
+          <h3>Landgraaf SnowWorld:</h3>
+          <p>Witte wereld 1, Landgraaf NL</p>
+          <div id="map">
+            <a href="https://www.maptiler.com"><img class="map-container" src="https://api.maptiler.com/resources/logo.svg" alt="MapTiler logo"></a>
+          </div>
+          <script>
+            const key = 'UFWvjBcTWJk7Royb0Q3H';
+            const map = L.map('map').setView([50.87486481611991, 6.019559329067481], 16); //starting position
+            L.tileLayer(`https://api.maptiler.com/maps/streets-v2/{z}/{x}/{y}.png?key=${key}`,{ //style URL
+              tileSize: 512,
+              zoomOffset: -1,
+              minZoom: 1,
+              attribution: "\u003ca href=\"https://www.maptiler.com/copyright/\" target=\"_blank\"\u003e\u0026copy; MapTiler\u003c/a\u003e \u003ca href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\"\u003e\u0026copy; OpenStreetMap contributors\u003c/a\u003e",
+              crossOrigin: true
+            }).addTo(map);
+  
+            var marker = L.marker([50.87479481611991, 6.019559329067481]).addTo(map);
+          </script>
+        </section>
       </section>
     </article>
 

@@ -10,6 +10,8 @@
   <title>Zwitserland</title>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
   <link href="./css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 </head>
 
 <body class="p-3 m-0 border-0 bd-example bg-secondary">
@@ -133,6 +135,35 @@
       </section>
     </article>
 
+    <article>
+      <section class="row">
+        <section class="topic-container p-4 col-lg-6">
+          <p>hier nog een tabel plaatsen</p>
+        </section>
+        
+        <section class="topic-container text-center p-4 col-lg-6">
+          <h3>Falera - Laax - Flims:</h3>
+          <p>Zwitserland</p>
+          <div id="map">
+            <a href="https://www.maptiler.com"><img class="map-container" src="https://api.maptiler.com/resources/logo.svg" alt="MapTiler logo"></a>
+          </div>
+          <script>
+            const key = 'UFWvjBcTWJk7Royb0Q3H';
+            const map = L.map('map').setView([46.85031620791159, 9.25952247557962], 11); //starting position
+            L.tileLayer(`https://api.maptiler.com/maps/outdoor-v2/{z}/{x}/{y}.png?key=${key}`,{ //style URL
+              tileSize: 512,
+              zoomOffset: -1,
+              minZoom: 1,
+              attribution: "\u003ca href=\"https://www.maptiler.com/copyright/\" target=\"_blank\"\u003e\u0026copy; MapTiler\u003c/a\u003e \u003ca href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\"\u003e\u0026copy; OpenStreetMap contributors\u003c/a\u003e",
+              crossOrigin: true
+            }).addTo(map);
+  
+            var marker = L.marker([46.81531620791159, 9.25802247557962]).addTo(map);
+          </script>
+        </section>
+      </section>
+    </article>
+      
   </main>
   <hr>
 
