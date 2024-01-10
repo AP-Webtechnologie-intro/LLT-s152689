@@ -12,6 +12,7 @@
   <link href="./style.css" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="script.js"></script>
 </head>
 
 <body class="p-3 m-0 border-0 bd-example bg-secondary">
@@ -149,14 +150,14 @@
 
     <article class="px-3">
       <section class="row">
-        <section class="topic-container text-center p-4 col-lg-6">
+        <section class="topic-container text-center p-3 col-lg-6">
           <u>
-            <h3 class="p-4">Extra Info over de skigebieden</h3>
+            <h3 class="p-3">Extra Info over de skigebieden</h3>
           </u>
           <table class="table table-bordered table-striped table-success align-middle">
             <thead>
               <th></th>
-              <th>Prijs skipas 7dgn Volwassenen</th>
+              <th>Prijs skipas 7dgn Volwassenen *</th>
               <th>Hoogste Punt Skigebied</th>
             </thead>
             <tbody>
@@ -177,9 +178,31 @@
               </tr>
             </tbody>
           </table>
-          <p>* Prijzen geldig tot 31/03/2024</p>
+          <p class="pb-3">* Prijzen geldig tot 31/03/2024</p>
+
+          <table class="table table-bordered table-striped table-success align-middle">
+            <thead>
+              <th></th>
+              <th>API Weather Forecast 1day</th>
+            </thead>
+            <tbody>
+              <tr>
+                <th>Matterhorn - Zermatt</th>
+                <td id="temperatureTd1"></td>
+              </tr>
+              <tr>
+                <th>Laax - Flims - Falera</th>
+                <td id="temperatureTd2"></td>
+              </tr>
+              <tr>
+                <th>Les Quatres Valleés</th>
+                <td id="temperatureTd3"></td>
+              </tr>
+            </tbody>
+          </table>
+          <p>Weather for tomorrow</p>
         </section>
-        
+
         <section class="topic-container text-center px-4 col-lg-6">
           <u>
             <h3 class="p-4">Falera - Laax - Flims:</h3>

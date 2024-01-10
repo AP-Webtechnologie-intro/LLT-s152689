@@ -1,76 +1,23 @@
-// Use your own OpenWeatherMap API Key below
-const apiKey = 'c6143e2638745b75ff40d080dc4bd34b';
+  // Replace with your API endpoint
+  const apiEndpoint1 = "https://api.open-meteo.com/v1/forecast?latitude=45.97707979521085&longitude=7.658537686974978&current=temperature_2m&timezone=auto&forecast_days=1";
+  const apiEndpoint2 = "https://api.open-meteo.com/v1/forecast?latitude=46.08494880093317&longitude=7.301559026522801&current=temperature_2m&timezone=auto&forecast_days=1";
+  const apiEndpoint3 = "https://api.open-meteo.com/v1/forecast?latitude=46.811111967569495&longitude=9.25594556322635&current=temperature_2m&timezone=auto&forecast_days=1";
 
-const weatherContainer = document.getElementById("weather");
-const city = document.getElementById("city");
-const error = document.getElementById('error');
+  // Function to fetch data from the API and update the table cell
+  const fetchAndUpdateTemperature = (apiEndpoint, elementId) => {
+    fetch(apiEndpoint)
+      .then(response => response.json())
+      .then(data => {
+        // Get the temperature value
+        const temperature = data.current.temperature_2m;
 
-const units = 'metric'; //can be imperial or metric
-let temperatureSymobol = units == 'metric' ? "°F" : "°C";
+        // Update the table cell with the temperature value
+        document.getElementById(elementId).innerText = `Temperature: ${temperature} °C`;
+      })
+      .catch(error => console.error("Error fetching data:", error));
+  };
 
-async function fetchWeather() {
-    try {
-        weatherContainer.innerHTML = '';
-        error.innerHTML = '';
-        city.innerHTML = '';
-
-
-        const cnt = 10;
-        const cityInputtedByUser = document.getElementById('cityInput').value;
-
-        const apiUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${cityInputtedByUser}&appid=${apiKey}&units=${units}&cnt=${cnt}`;
-
-
-        const response = await fetch(apiUrl);
-        const data = await response.json();
-
-        //Display error if user types invalid city or no city
-        if (data.cod == '400' || data.cod == '404') {
-            error.innerHTML = `Not valid city. Please input another city`;
-            return;
-        }
-        //Display weather data for each 3 hour increment
-        data.list.forEach(hourlyWeatherData => {
-            const hourlyWeatherDataDiv = createWeatherDescription(hourlyWeatherData);
-            weatherContainer.appendChild(hourlyWeatherDataDiv);
-        });
-
-        // Display city name based on latitude and longitude
-        city.innerHTML = `Hourly Weather for ${data.city.name}`;
-
-    } catch (error) {
-        console.log(error);
-    }
-}
-
-function convertToLocalTime(dt) {
-
-    // Create a new Date object by multiplying the Unix timestamp by 1000 to convert it to milliseconds
-    // Will produce a time in the local timezone of user's computer
-    const date = new Date(dt * 1000);
-
-    const year = date.getFullYear();
-    const month = String(date.getMonth() + 1).padStart(2, '0'); // Months are 0-based, so add 1
-    const day = String(date.getDate()).padStart(2, '0');
-    const hours = String(date.getHours() % 12 || 12).padStart(2, '0'); // Convert 24-hour to 12-hour format
-    const minutes = String(date.getMinutes()).padStart(2, '0');
-    const seconds = String(date.getSeconds()).padStart(2, '0');
-    const period = date.getHours() >= 12 ? 'PM' : 'AM'; // Determine AM/PM
-
-    // Formatted date string in the format: YYYY-MM-DD hh:mm:ss AM/PM
-    return `${year}-${month}-${day} ${hours}:${minutes}:${seconds} ${period}`;
-
-}
-
-function createWeatherDescription(weatherData) {
-    const { main, dt } = weatherData;
-
-    const description = document.createElement("div");
-    const convertedDateAndTime = convertToLocalTime(dt);
-
-    // '2023-11-07 07:00:00 PM'
-    description.innerHTML = `
-        <div class = "weather_description">${main.temp}${temperatureSymobol} - ${convertedDateAndTime.substring(10)} - ${convertedDateAndTime.substring(5, 10)} </div>
-    `;
-    return description;
-}
+  // Fetch data for each location
+  fetchAndUpdateTemperature(apiEndpoint1, "temperatureTd1");
+  fetchAndUpdateTemperature(apiEndpoint2, "temperatureTd2");
+  fetchAndUpdateTemperature(apiEndpoint3, "temperatureTd3");
